@@ -1,3 +1,10 @@
+/* dark purple: #0C002b
+  grey: #FAF7F5
+  darkgrey: #ADA88AA
+  offwhite: #FFFEFF
+  pink: #FF718E
+   */
+
 header {
   background: #0c002b;
   color: white;
@@ -23,7 +30,7 @@ header nav a:hover {
 }
 
 header nav .register-btn {
-  background: pink;
+  background: #ff718e;
   padding: 7px 25px;
   text-align: center;
   color: white;
@@ -32,3 +39,61 @@ header nav .register-btn {
 nav {
   float: right;
 }
+
+/* Filters */
+#filter {
+  background: #faf7f5;
+  width: 30%;
+}
+
+#filter .inside {
+  padding: 20px;
+  max-width: 300px;
+}
+
+#filter h4 {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+#filter select {
+  background: transparent;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1b1b1b;
+  display: block;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.filters .title {
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 1rem;
+  color: #ada8aa;
+}
+
+.filters input[type='text'] {
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.4rem;
+  display: inline-block;
+  width: 45%;
+  margin-right: 2.5%;
+  margin-bottom: 1rem;
+}
+
+.extras label {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.extras label input[type='checkbox'] {
+  float: right;
+}
+
+/* Listings */
